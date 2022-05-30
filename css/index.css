@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Estilos header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    border: solid aqua 3px;
+    
+}
+
+li{
+  list-style: none;
+  margin: 10px;
+}
+
+.logo {
+    width: 200px;
+   
+}
+
+.menu_travel{
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+/* Estilos main */
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.menu_travel{
+    text-align: center;
+}
+
+.card1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card1>div{
+    width: 33%;
+}
+
+div{
+    border: solid black 2px;
+}
+div>li{
+    text-align: center;
+}
+
+div>p{
+    text-align: justify;
+    margin: 10px;
+    padding: 5px
+}
+
+/* Estilo Contacto */
+
+form {
+    border: solid aqua 2px;
+}
+aside {
+    align-content: flex-end;
+}
+
+/* Galeria */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5 em;
+}
+
+.grid--img{
+    height: 300px;
+}
