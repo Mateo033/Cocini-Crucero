@@ -71,14 +71,6 @@ div>p{
     padding: 5px
 }
 
-/* Estilo Contacto */
-
-form {
-    border: solid aqua 2px;
-}
-aside {
-    align-content: flex-end;
-}
 
 /* Galeria */
 
@@ -93,7 +85,7 @@ aside {
     height: 300px;
 }
 
-.container {  
+.grid {  
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(7, 1fr);

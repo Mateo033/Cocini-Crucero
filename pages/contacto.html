@@ -41,36 +41,30 @@
 
     <br>
 
-     <form method="post">
+     <form method="post" class="row g-3">
         <fieldset>
             <legend>Completa los datos y envianos tu consulta</legend>
-            <div>
-                <label for="Nombre">Nombre</label>
-                <div>
-                    <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required>
-                </div>
-            </div>
 
-            <div>
-                <label for="Apellido">Apellido</label>
-                <div>
-                    <input type="text" id="Apellido" name="Apellido" placeholder="Apellido" required>
+                <div class="col-md-6">
+                    <label for="Nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="Nombre">
                 </div>
-            </div>
 
-            <div>
-                <label for="Email">Email</label>
-                <div>
-                    <input type="email" id="Email" name="Email" placeholder="Email" required>
+                <div class="col-md-6">
+                    <label for="Apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="Apellido">
                 </div>
-            </div>
 
-            <div>
-                <label for="Consulta">Consulta</label>
-                <div>
-                    <textarea name="Consulta" id="Consulta" cols="30" rows="10" placeholder="Ingrese su consulta aqui"></textarea>
+                <div class="col-12">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputAddress" placeholder="Email">
                 </div>
-            </div>
+
+                <div>
+                    <label for="Consulta">Consulta</label>
+                <div>
+                <textarea name="Consulta" id="Consulta" cols="30" rows="10" placeholder="Ingrese su consulta aqui"></textarea>
+                </div>
 
             <input type="submit">
             <input type="reset">
